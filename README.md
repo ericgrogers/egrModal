@@ -34,14 +34,14 @@ For example, to create a modal window that contains everything within a <div> yo
 Now, inside of your main.js (or whatever it is that you call your main javascript file) simply call the plugin on the element you want to use for the modal's content.
 
 e.g.
-
+```javascript
 (function($){
 
   $('.modal').egrModal();
 
 }(jQuery));
 
-
+```
 **********************************************************
 
 Lastly, make any changes you desire to the CSS and you now have a simple, easy to use modal window.
