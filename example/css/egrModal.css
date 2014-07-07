@@ -1,0 +1,43 @@
+/* egrModal Styles */
+
+.overlay {
+	background: #333;
+	opacity: 0.8;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.modal {
+	background: #fff;
+	z-index: 1001;
+	width: 60%;
+	height: auto;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: 3px 3px 20px #000;
+}
+
+/* If you choose not to use the default close button, you can delete the closeBtn class */
+.closeBtn {
+	font: 16px sans-serif;
+	padding-top: 4px;
+	color: #fff;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background: #000;
+	border: 3px solid #fff;
+	box-shadow: -3px 3px 5px #000;
+	display: block;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	z-index: 1002;
+}
