@@ -1,7 +1,7 @@
 egrModal
 ========
 
-Simple jQuery Modal window plugin. See a simple demo <a href="ericgrogers.github.io/egrModal/">HERE.</a>
+Simple jQuery Modal window plugin. See a simple demo <a href="ericgrogers.github.io/egrModal/example/">HERE.</a>
 
 I created this plugin to have a fast and clean way to create a blank Modal window that can be styled any way I see fit.
 The modal window is currently styled to be responsive, and automatically recenters itself on window resize. The modal can be closed in 3 different ways: Clicking the close (X) button on the top right, clicking on the overlay, or simply hitting the ESC key.
