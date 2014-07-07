@@ -16,7 +16,7 @@ egrModal.css
 Then, simply call the plugin with jQuery on whatever element you want to use to populate the modal. Add a button or link with a class name of 'modal-open' to open the modal and you're all set!
 
 ********************************************************
-
+<code>
 For example, to create a modal window that contains everything within a <div> you can do something like this:
 
 <div class="modal"> // you can use any id or class name that you want. You can also traverse the DOM to get the <div> if you don't want to use an id or class.
@@ -39,6 +39,8 @@ e.g.
   $('.modal').egrModal();
 
 }(jQuery));
+
+</code>
 
 **********************************************************
 
