@@ -28,6 +28,8 @@ For example, to create a modal window that contains everything within a <div> yo
 
 <button class="modal-open">Click here to open the Modal</button> // use the modal-open class on a button or link. Make sure you don't place your button or link inside of the element you are using for the modal or it will not display properly.
 
+</code>
+
 *********************************************************
 
 Now, inside of your main.js (or whatever it is that you call your main javascript file) simply call the plugin on the element you want to use for the modal's content.
@@ -40,7 +42,6 @@ e.g.
 
 }(jQuery));
 
-</code>
 
 **********************************************************
 
